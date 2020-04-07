@@ -1,0 +1,76 @@
+img{
+	width: 100px;
+	height: 100px;
+	transition: all 1s;
+}
+img:hover {
+	transform: scale(1.1);
+}
+.container{
+	display: flex;
+	
+	justify-content: center;
+	justify-content: space-around;
+
+}
+body{
+	background: url("interior.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: left;
+  font-family: "fantasy";
+}
+
+header{
+	
+	text-align: center;
+	height: 250 px;
+	text-transform: capitalize;
+	color: black;
+	
+
+}
+
+.main_menu{
+	text-align: center;
+	padding: 5px 0 5px 0;
+	background-color: grey;
+
+}
+ul.main_menu{
+	margin-top: 15px;
+}
+.main_menu li{
+	display: inline;
+	padding: 0 10px 0 10px;
+}
+.main_menu a{
+	text-decoration: none;
+	color: white;
+
+
+}
+.main_menu a:hover{
+	color: #009f;
+}
+
+.main_menu p{
+	line-height: 10px;
+	text-align: right;
+	color: green;
+	font-family: "Georgia";
+}
+.button2 {
+    font-family: "Georgia";
+    border: none;
+    color: black;
+    background-color: #33ce39;
+	border-radius: 12px;
+    transition: all 1s;
+}
+
+.button2:hover {
+transform: scale(1.1);
+}
